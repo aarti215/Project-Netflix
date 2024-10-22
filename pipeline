@@ -47,7 +47,7 @@ pipeline {
         
         stage('Docker-build') {
             steps {
-                sh "docker build --build-arg TMDB_V3_API_KEY=079c53c7a0369363ae29016c9c3b29f6   -t netflix:v1 ."
+                sh "docker build --build-arg TMDB_V3_API_KEY=079c53c7a0369363ae29016c9c3b29f6 -t netflix:v1 ."
             }
         }
         
